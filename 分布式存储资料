@@ -1,0 +1,11 @@
+GlusterFS/Lustre/MooseFS实践总结
+http://blog.csdn.net/chongyuanhuang/article/details/40866749
+
+GlusterFS：fuse 用户态文件系统，数据拷贝导致性能问题？
+Lustre：数据单点问题，需要借助其他软件保证（对于Lustre的安全性，可以提供如下一种架构：Lustre+keepalived+drbd，使用第三方类似drbd进行数据网络备份，
+通过心跳检测软件keepalived或者是heartbeat检测主服务器的健康状态，当主服务器出现故障时，心跳检测软件执行自动切换工作。
+这种架构虽然能够解决数据安全性的问题，但是由于过多使用了第三方软件，整体架构稳定性下降，并且后期的维护难度提高。）
+
+ceph：
+
+tfs：
