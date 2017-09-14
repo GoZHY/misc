@@ -1,0 +1,7 @@
+Go语言可变参数函数，何时该使用省略号(...)
+https://studygolang.com/articles/5225
+讲解了切片初始化的问题，值得注意。
+
+Go 语言数组
+http://www.runoob.com/go/go-arrays.html
+数组同切片的区别 len cap
