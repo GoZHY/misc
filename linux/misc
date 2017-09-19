@@ -1,0 +1,57 @@
+linux 内核与用户空间通信之netlink使用方法
+http://blog.csdn.net/haomcu/article/details/7371835
+
+自旋锁和互斥锁区别
+http://blog.csdn.net/sunmenggmail/article/details/8105279
+
+关于udev，sys，proc，tmpfs一些定义的问题
+http://blog.csdn.net/westlor/article/details/51330567
+
+gprof使用介绍
+http://blog.csdn.net/linquidx/article/details/5916701
+
+Why is valgrind limited to 32 Gb on 64 bit architectures?
+https://stackoverflow.com/questions/8644234/why-is-valgrind-limited-to-32-gb-on-64-bit-architectures
+
+%p 0x800000000
+http://blog.csdn.net/kuanxu/article/details/7454081
+
+【Linux学习】epoll详解
+http://blog.csdn.net/xiajun07061225/article/details/9250579
+
+epoll的ET和LT模式详解
+http://blog.csdn.net/eroswang/article/details/4481521
+
+简述Linux Epoll ET模式EPOLLOUT和EPOLLIN触发时刻
+http://www.cnblogs.com/moodlxs/archive/2011/12/16/2290288.html
+EPOLLIN事件：
+EPOLLIN事件则只有当对端有数据写入时才会触发，所以触发一次后需要不断读取所有数据直到读完EAGAIN为止。否则剩下的数据只有在下次对端有写入时才能一起取出来了。
+现在明白为什么说epoll必须要求异步socket了吧？如果同步socket，而且要求读完所有数据，那么最终就会在堵死在阻塞里。
+
+ 内核符号表的生成和查找过程
+ http://blog.csdn.net/jasonchen_gbd/article/details/44025681
+ 
+ 一个简单的Linux后门程序的实现
+ http://www.cnblogs.com/big-xuyue/p/3632731.html
+ 
+linux后台运行服务
+http://blog.csdn.net/mafuli007/article/details/7963879
+ 
+ Linux Setuid和Setgid
+ http://wangxinglong.blog.51cto.com/679714/340161
+ 
+linux系统调用之-fork、wait、waitpid
+http://blog.csdn.net/hzrandd/article/details/50774928
+
+信号
+Linux信号透彻分析与理解
+http://blog.sina.com.cn/s/blog_636a55070101vs2d.html
+
+Linux多线程中使用信号-1
+http://blog.csdn.net/qq276592716/article/details/7325250
+
+uc笔记08---信号处理，signal，子进程的信号处理
+http://blog.csdn.net/wolfsun3/article/details/48830515
+
+linux信号Linux下Signal信号太详细了，终于找到了
+http://www.cppblog.com/sleepwom/archive/2010/12/27/137564.html
