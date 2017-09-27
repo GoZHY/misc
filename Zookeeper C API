@@ -1,2 +1,22 @@
 Zookeeper C API 指南
 http://www.cnblogs.com/haippy/archive/2013/02/21/2920280.html
+
+ZooKeeper典型应用场景一览
+http://www.cnblogs.com/tommyli/p/3766189.html
+
+zookeeper和dubbo的关系
+http://blog.csdn.net/daiqinge/article/details/51282874
+
+分布式锁实现方案(REDIS,ZOOKEEPER,TAIR)
+http://blog.csdn.net/z69183787/article/details/68485825
+
+基于zookeeper简单实现分布式锁
+http://blog.csdn.net/desilting/article/details/41280869
+
+基于ZooKeeper的分布式锁和队列
+http://www.cnblogs.com/luxiaoxun/p/4889764.html
+
+ZooKeeper 笔记(6) 分布式锁
+http://www.cnblogs.com/yjmyzz/p/distributed-lock-using-zookeeper.html
+setnx
+
