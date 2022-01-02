@@ -1,0 +1,37 @@
+ARM 计算库不但是非常全面的一站式解决方案，可用于日常常见 CV 和 ML 性能优化工作，它还有一个重要特性，那就是可移植性。CPU 功能是用 NEON 内部函数实现的，开发人员可以针对其目标体系结构重新编译这些内部函数，也就是说可以在 ARMv7 或 ARMv8 处理器实现之间转换代码，可将代码编译为 32 位和 64 位。该库的 GPU 版本由使用 OpenCL 标准 API 编写的内核程序组成，这些程序同样可以跨多种处理器和体系结构移植（虽然是专门为 ARM Mali GPU 而优化的）。
+nouveau driver in Linux Kernel
+开源社区版的英伟达 GPU 驱动，基于 DRM，硬件细节基本靠逆向工程。不支持 CUDA、只支持 OpenGL 渲染。代码庞大，包含很多有用信息
+
+MMIO ——— Memory Mapped I/O。设备上的寄存器或存储，CPU 以内存读写指令来访问。
+CSR ———— Control & Status Register，设备上的用于控制、或反映状态的寄存器。CSR 通常以 MMIO 的方式访问。
+UMD ———— User Mode Driver。GPU 的用户态驱动程序，例如 CUDA 的 UMD 是 libcuda.so
+KMD ———— Kernel Mode Driver。GPU 的 PCIe 驱动，例如英伟达 GPU 的 KMD 是 nvidia.ko
+
+super_block inode dentry
+https://blog.csdn.net/pen_cil/article/details/79842399
+https://mp.weixin.qq.com/s/F_H0b7mN4r_vSx6stKbrAw
+https://www.cnblogs.com/alantu2018/p/8461749.html
+
+pcie:
+http://blog.chinaaet.com/justlxy/p/5100053251
+https://blog.csdn.net/abcamus/article/details/73518752
+
+scsi:
+http://blog.chinaunix.net/uid-14528823-id-4924157.html
+
+docker cgroup 技术之memory（首篇）
+https://www.cnblogs.com/charlieroro/p/10180827.html
+
+qemu:
+https://blog.csdn.net/weixin_43868725/article/details/112267340
+https://thejinfei.github.io/2020/02/18/LeetCode-Qemu%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/
+http://m.blog.chinaunix.net/uid-31410005-id-5855834.html
+KVM虚拟机网络配置 Bridge方式，NAT方式:
+https://blog.csdn.net/hzhsan/article/details/44098537
+http://freemandealer.github.io/2015/08/27/debug-kernel-with-qemu/
+
+virtio 可以分为四层，包括
+virtio_blk\virtio_net\virtio_scsi：前端 guest 中各种设备驱动程序模块。
+virtio-pci：virtio设备首先是个PCI设备，会走标准的PCI设备总线模型。
+virtio*virtio-ring ：virtio主要实现控制面，例如实现虚拟队列接口（数据结构、notify等通信机制），是前后端通信的桥梁，virtio-ring主要偏向数据面，实现两个环形缓冲区，实现了具体的通信机制和数据流。
+virtio backend：后端 Hypervisor （实现在Qemu上）上的处理程序模块。
