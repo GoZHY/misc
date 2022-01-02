@@ -35,3 +35,38 @@ virtio_blk\virtio_net\virtio_scsi：前端 guest 中各种设备驱动程序模�
 virtio-pci：virtio设备首先是个PCI设备，会走标准的PCI设备总线模型。
 virtio*virtio-ring ：virtio主要实现控制面，例如实现虚拟队列接口（数据结构、notify等通信机制），是前后端通信的桥梁，virtio-ring主要偏向数据面，实现两个环形缓冲区，实现了具体的通信机制和数据流。
 virtio backend：后端 Hypervisor （实现在Qemu上）上的处理程序模块。
+
+开启内核地址随机化KASLR后, qemu 调试 kernel 不能设置断点
+https://kernel.blog.csdn.net/article/details/104266966
+https://kernel.blog.csdn.net/article/details/73715860
+
+
+-------------------------------------
+安装工具：
+zypper install bridge-utils        # 虚拟网桥工具
+zypper install uml-utilities       # UML（User-mode linux）工具
+
+添加br0:
+brctl addbr br0  //添加br0
+ifconfig br0 192.168.0.22 netmask 255.255.255.0  //设置br0的IP与eth0相同
+
+添加tap0:
+tunctl -t tap0 -u root              # 创建一个tap0接口，只允许root用户访问
+brctl addif br0 tap0                # 在虚拟网桥中增加一个tap0接口
+ifconfig tap0 0.0.0.0 promisc up    # 打开tap0接口
+brctl showstp br0                   # 显示br0的各个接口
+
+如果需要删除br0，需要先关闭br0：
+ifconfig br0 down
+brctl delbr br0
+ 
+进入虚拟机设置：
+1）  配置eth0需与br0同一网段，
+ifconfig eth0 10.42.194.225/23
+
+2）配置路由
+ip route show
+ip route add 10.42.194.225/23 dev eth0 table eth0
+
+(如果提示“table id value is invalid”，先执行ip rule add from all pref 1 lookup eth0)
+ip route flush cache
