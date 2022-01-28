@@ -1,0 +1,72 @@
+mca msrs microcode(uc) tsx
+
+https://bg2bkk.github.io/post/Understanding%20TCPIP%20Network%20Stack%20&%20Writing%20Network%20Apps/
+https://bg2bkk.github.io/post/Understanding%20TCPIP%20Network%20Stack%20&%20Writing%20Network%20Apps/
+
+https://rootw.github.io/2019/09/firecracker-virtio/
+
+升级gcc 4.4.7
+http://blog.csdn.net/force_eagle/article/details/5203578
+
+
+升级GLIBC：
+http://blog.csdn.net/cpplang/article/details/8462768
+
+
+┏╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍┓
+
+ ┌───────────────┐           ┃    Network    ┃
+
+ │ table: filter │           ┗━━━━━━━┳━━━━━━━┛
+
+ │ chain: INPUT  │◀────┐             │
+
+ └───────┬───────┘     │             ▼
+
+         │             │   ┌───────────────────┐
+
+  ┌      ▼      ┐      │   │ table: nat        │
+
+  │local process│      │   │ chain: PREROUTING │
+
+  └             ┘      │   └─────────┬─────────┘
+
+         │             │             │
+
+         ▼             │             ▼              ┌─────────────────┐
+
+┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅    │     ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅      │table: nat       │
+
+ Routing decision      └───── outing decision ─────▶│chain: PREROUTING│
+
+┅┅┅┅┅┅┅┅┅┳┅┅┅┅┅┅┅┅┅          ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅      └────────┬────────┘
+
+         │                                                   │
+
+         ▼                                                   │
+
+ ┌───────────────┐                                           │
+
+ │ table: nat    │           ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅               │
+
+ │ chain: OUTPUT │    ┌─────▶ outing decision ◀──────────────┘
+
+ └───────┬───────┘    │      ┅┅┅┅┅┅┅┅┳┅┅┅┅┅┅┅┅
+
+         │            │              │
+
+         ▼            │              ▼
+
+ ┌───────────────┐    │   ┌────────────────────┐
+
+ │ table: filter │    │   │ chain: POSTROUTING │
+
+ │ chain: OUTPUT ├────┘   └──────────┬─────────┘
+
+ └───────────────┘                   │
+
+                                     ▼
+
+                             ┏╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍┓
+
+                             ┃    Network    ┃
