@@ -1,0 +1,26 @@
+kernel_init_freeable
+
+https://www.kernel.org/doc/html/v5.10/driver-api/men-chameleon-bus.html
+
+LiteOS系统
+
+Linux内核测试指南
+
+aperfmperf_snapshot_khz
+
+https://lore.kernel.org/lkml/
+
+https://www.kernel.org/doc/html/v5.10/fb/udlfb.html
+
+[Linux 性能调优] 网卡中断与CPU的绑定问题
+https://www.cnblogs.com/bamanzi/p/linux-irq-and-cpu-affinity.html
+
+Linux内核测试指南
+一些这类的资料，比如Daniel Bovet and Marco Cesati写的深入理解linux内核(http://www.oreilly.com/catalog/understandlk/), Jonathan Corbet, 
+Alessandro Rubini 和 Greg Kroah-Hartman写的linux设备驱动程序(http://lwn.net/Kernel/LDD3/)，或者Robert Love的linux内核设计与实现(http://rlove.org/kernel_book/)
+( KernelNewbies 网站的网页 http://kernelnewbies.org/KernelBooks有一份全部内核相关书籍的清单)。
+在linux周报网站(http://lwn.net/Kernel/Index/)上可以找到描述linux内核中某些重要模块的设计与操作的非常有用的文章。尽管如此，内核资料的终极来源是它的源码。你有必要很好地掌握C语言，达到能阅读内核源码的程度。
+
+https://blog.csdn.net/xiezhi123456/article/details/80097780
+https://blog.csdn.net/xx_0305401/article/details/81914436
+https://blog.csdn.net/qq_41179988/article/details/85676362
