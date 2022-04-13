@@ -1,0 +1,35 @@
+Libpcap的实现机制:
+libpcap实现机制及接口函数:
+https://www.jianshu.com/p/ed6db49a3428
+PF_RING简单介绍:
+https://zhuanlan.zhihu.com/p/441361636
+
+tcpdump与libpcap原理分析:
+https://blog.csdn.net/dillanzhou/article/details/96913981
+tcpdump与iptables关系
+https://blog.csdn.net/qq_41586875/article/details/123320437
+
+Writing USB Device Drivers
+https://www.kernel.org/doc/html/latest/driver-api/usb/writing_usb_driver.html
+编写一个 USB 驱动：https://www.kancloud.cn/kancloud/ldd3/61032 （linux设备驱动第三版）
+
+MDL中数据读取:https://blog.csdn.net/iteye_13216/article/details/81795380
+MDL相关总结: https://blog.csdn.net/weixin_33798152/article/details/94192326
+IoAllocateMdl，MmProbeAndLockPages的用法: https://blog.csdn.net/haodawei123/article/details/86735511
+MDL,IoAllocateMdl,MmProbeAndLockPages,MmMapLockedPagesSpecifyCache函数使用说明：
+https://blog.csdn.net/haodawei123/article/details/86735529?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+MmProbeAndLockPages：https://blog.csdn.net/Sunny_wwc/article/details/6248714   （MmProbeAndLockPages 到底锁定什么？）
+
+分页内存与非分页内存:
+https://community.osr.com/discussion/155166
+
+CONTAINING_RECORD的用法:
+https://blog.csdn.net/zs10hz/article/details/43052247
+
+驱动开发之 设备读写方式：直接读写方式
+
+windows7以上平台 NDISFilter 网卡过滤驱动开发: https://blog.csdn.net/fanxiushu/article/details/86516610(三种类型驱动的来龙去脉）
+NDIS和NPF:
+
+GigE —— GVCP 控制通道：https://blog.csdn.net/Mr_zhliang/article/details/94016145
+https://www.visiononline.org/userAssets/aiaUploads/File/GigE_Vision_Specification_2-0-03.pdf
