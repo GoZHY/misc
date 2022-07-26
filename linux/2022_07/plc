@@ -23,5 +23,5 @@ eip class1连接
 	-- 其实就是修改22中，本地assembly instance（output） 的内存值，然后组装消息后，通知plc； plc收到消息后，就修改了对应的output内存区域
 5.  然后两者以固定时隙同步数据...
 
-
+D:\ubuntu\linux_share\plc\HslCommunication\HslCommunication2.sln
 https://blog.csdn.net/m0_46577050/article/details/120898683
