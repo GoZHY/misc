@@ -22,3 +22,6 @@ eip class1连接
     收到plc的producer消息..., 然后发送plc关注的consumer消息（条码、读码器状态等）
 	-- 其实就是修改22中，本地assembly instance（output） 的内存值，然后组装消息后，通知plc； plc收到消息后，就修改了对应的output内存区域
 5.  然后两者以固定时隙同步数据...
+
+
+https://blog.csdn.net/m0_46577050/article/details/120898683
