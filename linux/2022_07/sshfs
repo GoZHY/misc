@@ -1,0 +1,27 @@
+1.win10 启动opensshd服务
+https://blog.csdn.net/ace1231/article/details/124079117
+
+2.读码器（aarch64 linux）提供sshfs
+...
+root@juan-VirtualBox:/usr/rk3399/bin# cat /proc/filesystems
+...
+https://github.com/libfuse/libfuse
+...
+root@juan-VirtualBox:/home/zhy/rock/sshfs/build# meson configure -D prefix=/usr/rk3399 -Dc_args="/usr/bin/aarch64-linux-gnu-gcc -g"
+root@juan-VirtualBox:/home/zhy/rock/sshfs/build# ninja build
+
+https://github.com/libfuse/sshfs/tree/master
+...
+https://github.com/openssh/openssh-portable
+...
+
+3.最终添加的文件如下：
+/usr/bin目录下添加：
+Sshfs ssh sftp fusermount3
+/usr/lib 目录下添加：
+
+4.Mount执行的命令行如下：
+https://blog.csdn.net/hxxjxw/article/details/123065545
+
+
+5.Umount执行的命令如下：
