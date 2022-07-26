@@ -1,0 +1,24 @@
+openplc:
+https://openplc.discussion.community/post/ethernetip-9885217
+编译plc的时候，会用到其他的通讯协议...
+
+cip/eip:
+###################################################
+dell@DESKTOP-9RANQQK MINGW64 /d/ubuntu/linux_share/OpENer (master)
+$ git remote -v
+origin  https://github.com/EIPStackGroup/OpENer.git (fetch)
+origin  https://github.com/EIPStackGroup/OpENer.git (push)
+__________________________________________________________________
+dell@DESKTOP-9RANQQK MINGW64 /d/ubuntu/linux_share/EIPScanner (master)
+$ git remote -v
+origin  https://github.com/nimbuscontrols/EIPScanner.git (fetch)
+origin  https://github.com/nimbuscontrols/EIPScanner.git (push)
+###################################################
+eip class1连接
+1. （118）plc导入eds(adapter) -- 初始化一些assembly instance，tag 
+2. （22）读码器scanner，发起tcp连接，发送remote_forward请求(0x54),请求118中的对应instance中的tag
+3.  118 收到请求，udp bind 2222（作为consumer），同时主动发送消息(producer)到读码器2222
+4.  读码器收到消息后，做如下处理：
+    收到plc的producer消息..., 然后发送plc关注的consumer消息（条码、读码器状态等）
+	-- 其实就是修改22中，本地assembly instance（output） 的内存值，然后组装消息后，通知plc； plc收到消息后，就修改了对应的output内存区域
+5.  然后两者以固定时隙同步数据...
