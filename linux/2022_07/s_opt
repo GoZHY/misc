@@ -10,21 +10,22 @@ Barcode and QR code Scanner using ZBar and OpenCV   https://learnopencv.com/barc
 ZBar bar code reader
 http://zbar.sourceforge.net/index.html
 
-QR codes： https://github.com/dlbeer/quirc
+QR codes： 
+https://github.com/dlbeer/quirc
 
 ########################################################################################################################
 网络协议：
 
 
 ########################################################################################################################
-内核::
+内核:
 http://www.rtlinuxfree.com/
-IOMARKIRPPENDING函数 https://blog.csdn.net/hutao1101175783/article/details/115952637
-XDP For Windows: https://github.com/zhaohaiyi/xdp-for-windows
+IOMARKIRPPENDING函数  https://blog.csdn.net/hutao1101175783/article/details/115952637
+XDP For Windows:  https://github.com/zhaohaiyi/xdp-for-windows
 
-设置OpenCV_DIR，使cmake自动找到opencv: https://www.jianshu.com/p/ce6d5ee3d080
-FUSE文件系统: https://blog.csdn.net/feelabclihu/article/details/109396707
-吴锦华/明鑫: 用户态文件系统(FUSE)框架分析和实战 https://blog.51cto.com/u_15015138/2557244
+设置OpenCV_DIR，使cmake自动找到opencv:  https://www.jianshu.com/p/ce6d5ee3d080
+FUSE文件系统:  https://blog.csdn.net/feelabclihu/article/details/109396707
+吴锦华/明鑫: 用户态文件系统(FUSE)框架分析和实战  https://blog.51cto.com/u_15015138/2557244
 
 ########################################################################################################################
 计算机视觉算法::
@@ -52,7 +53,6 @@ origin  https://github.com/opencv/opencv.git (push)
 
 https://github.com/umlaeute/v4l2loopback
 
-
 用OpenCV的dnn模块调用yolov3模型: https://zhuanlan.zhihu.com/p/135356269(在实际应用场景，我们用darknet的GPU版本训练自己的数据，得到权值文件，然后我们可以调用训练的好的模型去实现自己的检测项目。一般情况下，我们可以使用opencv的dnn模块去调用yolov3。)
 
 yolov3.cfg参数说明及调参经验: https://www.cnblogs.com/profession/p/13830495.html
@@ -61,9 +61,7 @@ YOLOv3 训练的各种config文件以及weights文件: https://blog.csdn.net/qq_
 static Net readNetFromDarknet(std::istream &cfgFile, std::istream &darknetModel): https://github.com/IBM/opencv-power/blob/8687f5b4a426b0f10f6d2ede994c076f610bb44a/modules/dnn/src/darknet/darknet_importer.cpp
 https://github.com/ultralytics/yolov5/releases/
 
-
 深度学习常见网络模型: https://zhuanlan.zhihu.com/p/363149010
-
 
 ########################################################################################################################
 V4L2(video 4 linux 2)视频采集接口使用说明: https://blog.51cto.com/mengqiucheng/738895
@@ -77,7 +75,6 @@ https://github.com/webcamoid/akvcam.git
 opencv & yolo & v4l2:
 如何在OpenCV中使用YOLO: https://blog.csdn.net/qq_42722197/article/details/113488664
 【OpenCV】解决树莓派读取4个USB摄像头数据报错问题: https://www.cnblogs.com/zhenglisai/p/15840261.html
-
 
 ########################################################################################################################
 聒噪的中文编码：
