@@ -1,0 +1,90 @@
+########################################################################################################################
+GVSP:
+
+
+########################################################################################################################
+读码器(linux相机)::
+常见二维码种类(Data Matrix、MaxiCode、Aztec、QR Code、PDF417、Vericode、Ultracode、Code 49、Code 16K)  https://www.cnblogs.com/guorongtao/p/12921855.html
+Barcode and QR code Scanner using ZBar and OpenCV   https://learnopencv.com/barcode-and-qr-code-scanner-using-zbar-and-opencv/
+
+ZBar bar code reader
+http://zbar.sourceforge.net/index.html
+
+QR codes： https://github.com/dlbeer/quirc
+
+########################################################################################################################
+网络协议：
+
+
+########################################################################################################################
+内核::
+http://www.rtlinuxfree.com/
+IOMARKIRPPENDING函数 https://blog.csdn.net/hutao1101175783/article/details/115952637
+XDP For Windows: https://github.com/zhaohaiyi/xdp-for-windows
+
+设置OpenCV_DIR，使cmake自动找到opencv: https://www.jianshu.com/p/ce6d5ee3d080
+FUSE文件系统: https://blog.csdn.net/feelabclihu/article/details/109396707
+吴锦华/明鑫: 用户态文件系统(FUSE)框架分析和实战 https://blog.51cto.com/u_15015138/2557244
+
+########################################################################################################################
+计算机视觉算法::
+cuda: https://zhuanlan.zhihu.com/p/434572353
+gpgpu-sim: https://github.com/gpgpu-sim/gpgpu-sim_distribution
+sse2neon: https://blog.csdn.net/qq_28581781/article/details/97804427
+https://github.com/DLTcollab/sse2neon
+
+Ubuntu 20.04 下安装运行 GPGPU-Sim: https://zhuanlan.zhihu.com/p/369673760
+http://gpgpu-sim.org/
+
+########################################################################################################################
+misc::1(linux)
+Linux rga说明文档.pdf(rockchip) https://github.com/Caesar-github/linux-rga/blob/master/Linux%20rga%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.pdf
+
+misc::2(opencv yolo)
+opencv: https://learnopencv.com/eigenface-using-opencv-c-python/
+
+dlib & opencv & v4l2loopback: 
+origin  https://github.com/davisking/dlib.git (fetch)
+origin  https://github.com/davisking/dlib.git (push)
+
+origin  https://github.com/opencv/opencv.git (fetch)
+origin  https://github.com/opencv/opencv.git (push)
+
+https://github.com/umlaeute/v4l2loopback
+
+
+用OpenCV的dnn模块调用yolov3模型: https://zhuanlan.zhihu.com/p/135356269(在实际应用场景，我们用darknet的GPU版本训练自己的数据，得到权值文件，然后我们可以调用训练的好的模型去实现自己的检测项目。一般情况下，我们可以使用opencv的dnn模块去调用yolov3。)
+
+yolov3.cfg参数说明及调参经验: https://www.cnblogs.com/profession/p/13830495.html
+yolov3 .cfg文件解析: https://blog.csdn.net/weixin_45392081/article/details/106933516
+YOLOv3 训练的各种config文件以及weights文件: https://blog.csdn.net/qq_32998593/article/details/88721800
+static Net readNetFromDarknet(std::istream &cfgFile, std::istream &darknetModel): https://github.com/IBM/opencv-power/blob/8687f5b4a426b0f10f6d2ede994c076f610bb44a/modules/dnn/src/darknet/darknet_importer.cpp
+https://github.com/ultralytics/yolov5/releases/
+
+
+深度学习常见网络模型: https://zhuanlan.zhihu.com/p/363149010
+
+
+########################################################################################################################
+V4L2(video 4 linux 2)视频采集接口使用说明: https://blog.51cto.com/mengqiucheng/738895
+opencv 之videoio: https://blog.csdn.net/youth0532/article/details/102521401
+OpenCV 交叉编译：基于 FFMPEG 的 VideoIO 模块: https://zhuanlan.zhihu.com/p/377407799
+
+Create Fake Webcam Streams On Linux: https://www.linuxfordevices.com/tutorials/linux/fake-webcam-streams
+https://github.com/umlaeute/v4l2loopback
+https://github.com/webcamoid/akvcam.git
+
+opencv & yolo & v4l2:
+如何在OpenCV中使用YOLO: https://blog.csdn.net/qq_42722197/article/details/113488664
+【OpenCV】解决树莓派读取4个USB摄像头数据报错问题: https://www.cnblogs.com/zhenglisai/p/15840261.html
+
+
+########################################################################################################################
+聒噪的中文编码：
+https://zhuanlan.zhihu.com/p/457656907
+https://blog.csdn.net/netyeaxi/article/details/81036482（c++ locale)
+
+https://blog.csdn.net/xiaolong1126626497/article/details/125290208
+https://blog.csdn.net/qq_40015157/article/details/119142724  MultiByteToWideChar(CP_UTF8,0,UTF8,-1,pwText,dwUnicodeLen); //936...
+GB2312与unicode互换的C语言代码: https://github.com/lindabell/gB2312toUnicode
+Win10永久修改命令提示符cmd的默认当前页码页为936: https://blog.csdn.net/lhw19931201/article/details/90242230
