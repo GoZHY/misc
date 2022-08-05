@@ -1,0 +1,14 @@
+Linux内核：中断分析-中断向量表 详解：https://zhuanlan.zhihu.com/p/445847711
+Linux kernel的中断子系统之（一）：综述：https://blog.csdn.net/qq_38350702/article/details/121015823
+
+8259A中断控制器： https://baike.baidu.com/item/8259A%E4%B8%AD%E6%96%AD%E6%8E%A7%E5%88%B6%E5%99%A8/3572337?fr=aladdin
+8259A详解：https://blog.csdn.net/qq_43546328/article/details/109680374
+
+【深度】剖析ARM中断控制器与GIC中断控制器：https://zhuanlan.zhihu.com/p/527107797
+APIC： https://baike.baidu.com/item/APIC/9329652?fr=aladdin
+IRQ与FIQ的区别：https://blog.csdn.net/zhanghuaichao/article/details/48802669
+
+CPU多核初始化：https://zhuanlan.zhihu.com/p/283063772
+
+Linux内核spin_lock、spin_lock_irq 和 spin_lock_irqsave 分析：https://blog.csdn.net/seableble/article/details/103173971
+schedule函数分析：https://blog.csdn.net/weixin_41270793/article/details/124014758
