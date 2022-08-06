@@ -9,8 +9,6 @@ https://www.cnblogs.com/piccolo/articles/237507.html
 https://www.cnblogs.com/lzjsky/archive/2010/11/19/1881911.html
 
 
-
-
 ...
 typora免费版，无需破解，安装直接使用: https://blog.csdn.net/zydybaby/article/details/125324579?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-125324579-blog-122968012.pc_relevant_aa_2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-125324579-blog-122968012.pc_relevant_aa_2&utm_relevant_index=8
 
@@ -30,3 +28,6 @@ Typora使用数学公式: https://blog.csdn.net/weixin_43445441/article/details/
 13、\sin{(x + y)} //三角函数\\
 14、\ln2 //对数函数1\\
 15、\log_28 //对数函数2\\
+
+Markdown 和 LaTeX 是什么关系？:
+https://www.zhihu.com/question/27459400
