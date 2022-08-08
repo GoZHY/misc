@@ -76,6 +76,8 @@ opencv & yolo & v4l2:
 如何在OpenCV中使用YOLO: https://blog.csdn.net/qq_42722197/article/details/113488664
 【OpenCV】解决树莓派读取4个USB摄像头数据报错问题: https://www.cnblogs.com/zhenglisai/p/15840261.html
 
+(opencv)任意多边形检测：https://blog.csdn.net/Sun_tian/article/details/104221658/
+
 ########################################################################################################################
 聒噪的中文编码：
 https://zhuanlan.zhihu.com/p/457656907
