@@ -5,6 +5,9 @@ https://www.it610.com/article/1175040991615332352.htm
 驱动程序简单入门：
 https://www.cnblogs.com/piccolo/articles/237507.html
 
+mdl
+direct、neither...
+
 2. 在驱动和应用程序间共享内存：
 https://www.cnblogs.com/lzjsky/archive/2010/11/19/1881911.html
 
