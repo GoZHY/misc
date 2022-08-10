@@ -1,0 +1,18 @@
+Qualcomm——DragonBoard 410C开发板评测: 
+https://blog.csdn.net/oneqinglong/article/details/70214340?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-70214340-blog-51141194.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-70214340-blog-51141194.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=1
+HDMI转DVI输出/usb linux驱动存在问题
+
+：：https://blog.csdn.net/s_jason?type=blog
+基于Dragonboard 410c进行开发的远程遥控机器人（二）
+https://blog.csdn.net/s_jason/article/details/78801895?spm=1001.2014.3001.5502
+基于Dragonboard 410c进行开发的远程遥控机器人（三）
+https://blog.csdn.net/s_jason/article/details/78860999
+1.电机转速不同。尽管是相同型号的电机，供电电压等也是相同的，但还是存在不可消除的差异，所以导致两边的履带速度不同，因此行进过程中会跑偏，暂时没有想到好的解决方法。但是如果采用像汽车似的那种控制就不存在这种问题了，将两个轮子连接在同一个轴上，电机驱动这个轴就可以了。
+2.图像延时、抖动。因为摄像头是固定在上面的，所以当路面不平时，会产生剧烈抖动，其次，速度较快时，传输的图像会出现跳跃现象，暂时还未想到比较好的解决方法。
+ethernet/IP(eip) profinet...  gvsp协议存在问题
+
+树莓派
+rockchip&android
+高速扩展接口 drivers
+低速扩展接口 drivers
+linux mipi csi/usb v4l2框架
