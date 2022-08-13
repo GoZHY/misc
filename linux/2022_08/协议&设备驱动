@@ -1,0 +1,29 @@
+linux系统都有哪些子系统呢？
+https://baijiahao.baidu.com/s?id=1719314655649416608&wfr=spider&for=pc
+
+linux内核中的MFD子系统【转】：
+https://www.cnblogs.com/sky-heaven/p/12746329.html
+
+USB触摸屏的驱动:
+https://blog.csdn.net/s_jason/article/details/73466272?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-73466272-blog-109594601.pc_relevant_multi_platform_whitelistv2eslanding&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-73466272-blog-109594601.pc_relevant_multi_platform_whitelistv2eslanding&utm_relevant_index=1
+树莓派 Volumio 3.5触摸屏(GPIO) 配置教程：（gpio touchscreen）
+https://blog.csdn.net/longforus/article/details/119489604
+
+蓝牙协议：
+https://github.com/bluez/bluez
+在Linux上安装蓝牙驱动：
+https://blog.csdn.net/qq_40066238/article/details/116592485
+linux下的蓝牙驱动程序详解：
+https://www.it610.com/article/1293999149607362560.htm
+
+红外遥控（NEC协议）编程：
+https://blog.csdn.net/qq_27149449/article/details/115050111
+Linux驱动开发-编写NEC红外线协议解码驱动：
+https://blog.51cto.com/u_11822586/5191376
+GPIO模拟UART串口发送和接收:
+https://blog.csdn.net/weixin_43504224/article/details/125160593
+
+CDC EEM-USB网络共享：
+https://blog.csdn.net/weixin_42978662/article/details/113779231
+Linux配置USB RNDIS：
+https://blog.csdn.net/mianhuantang848989/article/details/125104844?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-125104844-blog-118219668.pc_relevant_layer_s&spm=1001.2101.3001.4242.1&utm_relevant_index=3
