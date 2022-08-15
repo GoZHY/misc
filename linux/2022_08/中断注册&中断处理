@@ -1,0 +1,51 @@
+##中断控制器：
+Linux DTS(Device Tree Source)设备树详解之二(dts匹配及发挥作用的流程篇)【转】
+http://wjhsh.net/sky-heaven-p-10419668.html
+
+中断管理基础学习笔记 - 2.中断控制器初始化
+https://blog.csdn.net/jasonactions/article/details/115541386
+void __init init_IRQ(void)
+    |--init_irq_stacks();//CONFIG_VMAP_STACK
+    |--irqchip_init();//初始化irq控制器，并注册irq_domain
+    |      |  //扫描__irqchip_of_table，匹配DTB中定义的中断控制器，匹配成功则调用中断控制器设置的初始化函数
+    |      |--of_irq_init(__irqchip_of_table);
+    |      |--acpi_probe_device_table(irqchip);
+    |--if (system_uses_irq_prio_masking())
+            local_daif_restore(DAIF_PROCCTX_NOIRQ);
+
+
+<include/linux/of.h>
+
+#if defined(CONFIG_OF) && !defined(MODULE)
+#define _OF_DECLARE(table, name, compat, fn, fn_type)                   \
+        static const struct of_device_id __of_table_##name              \
+                __used __section("__" #table "_of_table")               \
+                 = { .compatible = compat,                              \
+                     .data = (fn == (fn_type)NULL) ? fn : fn  }
+#else
+#define _OF_DECLARE(table, name, compat, fn, fn_type)                   \
+        static const struct of_device_id __of_table_##name              \
+                __attribute__((unused))                                 \
+                 = { .compatible = compat,                              \
+                     .data = (fn == (fn_type)NULL) ? fn : fn } 
+#endif
+
+#define OF_DECLARE_2(table, name, compat, fn) \
+                _OF_DECLARE(table, name, compat, fn, of_init_fn_2)
+
+
+
+setup_irq和request_irq(转)
+http://t.zoukankan.com/hoys-p-2525996.html
+
+Linux中断子系统之中断映射
+https://blog.csdn.net/feelabclihu/article/details/124893130
+
+Linux 中断 —— GIC (中断号映射)
+https://blog.csdn.net/zhoutaopower/article/details/90613988
+
+Linux设备驱动程序学习（11）-中断处理
+https://blog.csdn.net/tigerly/article/details/22874091
+
+Linux 中断控制器(五)：中断号映射
+https://zhuanlan.zhihu.com/p/443816033
