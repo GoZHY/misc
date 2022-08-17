@@ -1,0 +1,55 @@
+Linux驱动late_initcall和module_init相关分析
+http://blog.chinaunix.net/uid-29570002-id-4387097.html
+
+Linux内核里的DebugFS
+https://www.cnblogs.com/wwang/archive/2011/01/17/1937609.html
+
+Linux内核调试原理和工具介绍--理解静态插装/动态插装、tracepoint、ftrace、kprobe、SystemTap、Perf、eBPF
+https://blog.csdn.net/gengzhikui1992/article/details/89643042
+
+linux内核中逻辑地址、虚拟地址和线性地址的关系
+https://blog.csdn.net/ludongguoa/article/details/121226353
+
+perf性能分析--stat命令
+https://zhuanlan.zhihu.com/p/445260558
+
+预编译——关于#和##
+https://blog.csdn.net/qq_27397357/article/details/53022912
+
+#####################################################################################
+#####################################################################################
+grub相关：
+在虚拟磁盘安装grub，并引导一个系统启动
+https://zhuanlan.zhihu.com/p/38561117
+grub2详解(翻译和整理官方手册):
+https://blog.csdn.net/Michaelwubo/article/details/105948547
+
+grub命令 u盘安装linux,通过grub-install命令把grub安装到u盘-总结
+https://blog.csdn.net/weixin_28999945/article/details/116588498
+
+uboot:
+https://source.denx.de/u-boot/u-boot/-/tree/master/drivers/mmc
+uboot sandbox:
+https://github.com/chaiken/LCA2018-Demo-Code/blob/master/u-boot_sandbox/make_test_disk.sh
+
+#####################################################################################
+#####################################################################################
+dpkg包管理器ii、rc含义
+https://jerry.red/694/dpkg%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8ii%E3%80%81rc%E5%90%AB%E4%B9%89
+
+人工智能分析:
+https://www.shangyexinzhi.com/article/183566.html
+
+#####################################################################################
+#####################################################################################
+深入理解用户态协议栈之TCP/IP 的设计——高性能收发原始数据包的框架(Netmap)
+https://blog.csdn.net/m0_50662680/article/details/113278425
+
+netmap:
+https://github.com/luigirizzo/netmap
+
+手把手教你ubuntu18.04安装netmap:
+https://blog.csdn.net/qq_42956653/article/details/125863506
+
+netmap 介绍:
+https://blog.csdn.net/fengfengdiandia/article/details/52869290
