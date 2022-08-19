@@ -1,0 +1,57 @@
+http://t.zoukankan.com/sky-heaven-p-9098982.html
+
+基于uinput 实现远程键鼠
+https://blog.csdn.net/hulaonline/article/details/116566970?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-116566970-blog-117410228.pc_relevant_multi_platform_whitelistv4eslandingctr&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-116566970-blog-117410228.pc_relevant_multi_platform_whitelistv4eslandingctr&utm_relevant_index=1
+
+uinput 内核的一些细节：
+misc_register 字符型 杂项设备： https://blog.csdn.net/quincyfang/article/details/50427938
+root@juan-VirtualBox:/sys/class/misc# ll
+total 0
+drwxr-xr-x  2 root root 0 8月  18 10:36 ./
+drwxr-xr-x 67 root root 0 8月  18 10:36 ../
+lrwxrwxrwx  1 root root 0 8月  18 10:36 autofs -> ../../devices/virtual/misc/autofs/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 cpu_dma_latency -> ../../devices/virtual/misc/cpu_dma_latency/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 device-mapper -> ../../devices/virtual/misc/device-mapper/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 ecryptfs -> ../../devices/virtual/misc/ecryptfs/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 fuse -> ../../devices/virtual/misc/fuse/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 hpet -> ../../devices/virtual/misc/hpet/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 hw_random -> ../../devices/virtual/misc/hw_random/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 loop-control -> ../../devices/virtual/misc/loop-control/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 mcelog -> ../../devices/virtual/misc/mcelog/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 psaux -> ../../devices/virtual/misc/psaux/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 rfkill -> ../../devices/virtual/misc/rfkill/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 snapshot -> ../../devices/virtual/misc/snapshot/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 tun -> ../../devices/virtual/misc/tun/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 udmabuf -> ../../devices/virtual/misc/udmabuf/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 uinput -> ../../devices/virtual/misc/uinput/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 vboxguest -> ../../devices/virtual/misc/vboxguest/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 vboxuser -> ../../devices/virtual/misc/vboxuser/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 vfio -> ../../devices/virtual/misc/vfio/
+lrwxrwxrwx  1 root root 0 8月  18 10:36 vga_arbiter -> ../../devices/virtual/misc/vga_arbiter/
+
+root@juan-VirtualBox:/sys/devices/virtual/misc# ll
+total 0
+drwxr-xr-x 21 root root 0 8月  18 10:36 ./
+drwxr-xr-x 18 root root 0 8月  18 10:36 ../
+drwxr-xr-x  3 root root 0 8月  18 10:36 autofs/
+drwxr-xr-x  3 root root 0 8月  18 10:36 cpu_dma_latency/
+drwxr-xr-x  3 root root 0 8月  18 10:36 device-mapper/
+drwxr-xr-x  3 root root 0 8月  18 10:36 ecryptfs/
+drwxr-xr-x  3 root root 0 8月  18 10:36 fuse/
+drwxr-xr-x  3 root root 0 8月  18 10:36 hpet/
+drwxr-xr-x  3 root root 0 8月  18 10:36 hw_random/
+drwxr-xr-x  3 root root 0 8月  18 10:36 loop-control/
+drwxr-xr-x  3 root root 0 8月  18 10:36 mcelog/
+drwxr-xr-x  3 root root 0 8月  18 10:36 psaux/
+drwxr-xr-x  3 root root 0 8月  18 10:36 rfkill/
+drwxr-xr-x  3 root root 0 8月  18 10:36 snapshot/
+drwxr-xr-x  3 root root 0 8月  18 10:36 tun/
+drwxr-xr-x  3 root root 0 8月  18 10:36 udmabuf/
+drwxr-xr-x  3 root root 0 8月  18 10:36 uinput/
+drwxr-xr-x  3 root root 0 8月  18 10:36 vboxguest/
+drwxr-xr-x  3 root root 0 8月  18 10:36 vboxuser/
+drwxr-xr-x  3 root root 0 8月  18 10:36 vfio/
+drwxr-xr-x  3 root root 0 8月  18 10:36 vga_arbiter/
+root@juan-VirtualBox:/sys/devices/virtual/misc#
+
+好的，这里看到了传说中的vfio，还有tun，还有fuse，vbox..., vga...； 平时遇到的虚拟设备都在这里，那就下来就看看rfkill吧...
