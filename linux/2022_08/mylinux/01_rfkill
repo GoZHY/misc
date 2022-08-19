@@ -1,0 +1,37 @@
+misc_register
+https://blog.csdn.net/quincyfang/article/details/50427938
+
+Android 蓝牙笔记-底层RFKILL驱动
+https://blog.csdn.net/kiazhu/article/details/107290637
+蓝牙的rfkill驱动注册顺序, RFKILL_TYPE_BLUETOOTH为注册的设备类型.
+
+bt_rfk = rfkill_alloc(“bt-dev”, &pdev->dev, RFKILL_TYPE_BLUETOOTH, &bt_rfkill_ops, pdata);
+rfkill_init_sw_state(bt_rfk, false);
+rfkill_register(bt_rfk);
+
+static int bt_set_block(void *data, bool blocked)
+{
+    struct bt_dev_data *pdata = data;
+
+    pr_info("BT_RADIO going: %s\n", blocked ? "off" : "on");
+
+    if (!blocked) {
+        pr_info("AML_BT: going ON\n");
+        bt_device_on(pdata);
+    } else {
+        pr_info("AML_BT: going OFF\n");
+    bt_device_off(pdata);
+    }   
+    return 0;
+}
+
+static const struct rfkill_ops bt_rfkill_ops = { 
+    .set_block = bt_set_block,
+};
+
+bt_device_on和bt_device_off是直接操作设备的gpio引脚控制设备on和off. 引脚的设置在dts文件里面配置, 具体引脚结合硬件原理图配置.
+D:\ubuntu\linux_share\rockchip-dev-master\linux-kernel-4.4\linux-kernel\drivers\firmware\dcdbas.c 内核中戴尔的蓝牙模块开启、关闭功能。
+
+关于复杂的dts，io空间/内存空间隐射之类的，可以参考下面这个。
+platform设备驱动:
+Linux下SMI总线驱动： https://blog.csdn.net/han_dawei/article/details/9407397
