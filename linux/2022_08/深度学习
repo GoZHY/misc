@@ -1,0 +1,36 @@
+Linux网卡收包时的中断和软中断关系:
+https://zhuanlan.zhihu.com/p/157741043
+  D:\ubuntu\linux_share\rockchip-dev-master\linux-kernel-4.4\linux-kernel\net\core\dev.c
+	open_softirq(NET_RX_SOFTIRQ, net_rx_action);
+
+linux DMA机制实现（e1000资源分配）
+https://blog.csdn.net/wangquan1992/article/details/123678090
+
+在STM32F407中使用DMA
+https://blog.csdn.net/zhejfl/article/details/82555634?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4-82555634-blog-108325345.pc_relevant_multi_platform_whitelistv4eslandingctr&spm=1001.2101.3001.4242.3&utm_relevant_index=7
+
+VFIO代码分析（5）VFIO-IOMMU驱动
+https://blog.csdn.net/flyingnosky/article/details/123747366
+
+linux内核-中断请求队列的初始化
+https://blog.csdn.net/guoguangwu/article/details/121062507
+
+epoll的底层实现原理
+https://blog.csdn.net/ArtAndLife/article/details/121001656
+
+我不喜欢统计学，也不信服基于统计学的推理...
+
+深度学习的对抗性攻击：（先跟着别人泼点水）
+http://www.360doc.com/content/21/0610/23/535749_981508377.shtml
+
+线性回归：
+https://baike.baidu.com/item/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%96%B9%E7%A8%8B/7198720?fr=aladdin
+
+K近邻算法 (KNN) ：
+https://zhuanlan.zhihu.com/p/374590290
+
+点云处理算法核心-八叉树：
+https://www.cnblogs.com/z-web-2017/p/14111071.html
+
+二维码扫描与机器学习式图像识别的结合
+https://zhuanlan.zhihu.com/p/535230899
