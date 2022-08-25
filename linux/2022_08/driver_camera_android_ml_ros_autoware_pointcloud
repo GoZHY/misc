@@ -1,0 +1,19 @@
+某平台pcie设备的(host)controller驱动框架及其phy驱动框架（一）
+https://blog.csdn.net/tpmamba/article/details/112488180
+
+android 温控：
+温控驱动（一）msm_thermal（1） https://blog.csdn.net/kc58236582/article/details/84583378
+温控驱动（二）msm_thermal（2）
+温控daemon（一）概述 https://blog.csdn.net/kc58236582/article/details/80524579?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-80524579-blog-84583378.pc_relevant_multi_platform_whitelistv4eslandingrelevant&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-80524579-blog-84583378.pc_relevant_multi_platform_whitelistv4eslandingrelevant&utm_relevant_index=1
+https://blog.csdn.net/kc58236582/article/details/84613254?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-5-84613254-blog-84583378.pc_relevant_multi_platform_whitelistv4eslandingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-5-84613254-blog-84583378.pc_relevant_multi_platform_whitelistv4eslandingrelevant&utm_relevant_index=6
+早期android-华为oem版本：
+https://github.com/frap129/angler/blob/1b149bba4d0a0475422acdeeec96a567f6b40ad7/drivers/thermal/msm_thermal.c
+
+laser-ccd-isp-mcu(点云格式数据）- ros(autoware):
+https://github.com/ros-perception/pointcloud_to_laserscan
+
+
+机器人：
+SLAM拾萃(1)：octomap 
+https://blog.csdn.net/weixin_30647065/article/details/98302173?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-98302173-blog-123487506.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-98302173-blog-123487506.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=2
+
