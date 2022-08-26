@@ -1,3 +1,213 @@
+读码器内存问题log：
+[156035.272472] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[156035.272480] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[156035.385704] AR0234 driver set regiser addr: 12306 value: 100
+[156035.386389] AR0234 driver set regiser addr: 12384 value: 11
+[156999.754935] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[157000.261574] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[157000.262653] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[157000.262669] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[157000.311744] enter mtk_idd1_spi1_release
+[157000.311803] enter mtk_idd1_do_release
+[157002.282149] enter mtk_idd1_do_open
+[157003.907618] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[157003.907686] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[157003.910698] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[157003.911263] AR0234 driver set regiser addr: 12384 value: 11
+[157003.911284] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[157003.911292] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[157004.022355] AR0234 driver set regiser addr: 12306 value: 100
+[157004.023041] AR0234 driver set regiser addr: 12384 value: 11
+[157558.101444] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[157558.608138] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[157558.609234] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[157558.609269] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[157558.654968] enter mtk_idd1_spi1_release
+[157558.655029] enter mtk_idd1_do_release
+[157560.624542] enter mtk_idd1_do_open
+[157562.260956] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[157562.261032] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[157562.263978] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[157562.264542] AR0234 driver set regiser addr: 12384 value: 11
+[157562.264562] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[157562.264570] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[157562.375955] AR0234 driver set regiser addr: 12306 value: 100
+[157562.376632] AR0234 driver set regiser addr: 12384 value: 11
+[158717.621240] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[158718.127889] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[158718.128967] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[158718.128984] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[158718.171383] enter mtk_idd1_spi1_release
+[158718.171444] enter mtk_idd1_do_release
+[158720.103936] enter mtk_idd1_do_open
+[158721.727778] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[158721.727914] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[158721.730908] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[158721.731514] AR0234 driver set regiser addr: 12384 value: 11
+[158721.731536] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[158721.731544] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[158721.842407] AR0234 driver set regiser addr: 12306 value: 100
+[158721.843084] AR0234 driver set regiser addr: 12384 value: 11
+[159746.607647] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[159747.114339] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[159747.115418] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[159747.115434] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[159747.167842] enter mtk_idd1_spi1_release
+[159747.167901] enter mtk_idd1_do_release
+[159749.137266] enter mtk_idd1_do_open
+[159750.763102] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[159750.763174] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[159750.766089] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[159750.766659] AR0234 driver set regiser addr: 12384 value: 11
+[159750.766680] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[159750.766688] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[159750.877621] AR0234 driver set regiser addr: 12306 value: 100
+[159750.878305] AR0234 driver set regiser addr: 12384 value: 11
+[160332.314208] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[160332.820892] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[160332.821972] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[160332.821988] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[160332.864427] enter mtk_idd1_spi1_release
+[160332.864490] enter mtk_idd1_do_release
+[160334.813421] enter mtk_idd1_do_open
+[160336.442533] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[160336.442604] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[160336.445589] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[160336.446160] AR0234 driver set regiser addr: 12384 value: 11
+[160336.446181] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[160336.446189] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[160336.557028] AR0234 driver set regiser addr: 12306 value: 100
+[160336.557679] AR0234 driver set regiser addr: 12384 value: 11
+[160928.397404] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[160928.900773] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[160928.901853] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[160928.901868] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[160928.944258] enter mtk_idd1_spi1_release
+[160928.944321] enter mtk_idd1_do_release
+[160930.916583] enter mtk_idd1_do_open
+[160932.539775] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[160932.539847] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[160932.542771] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[160932.543339] AR0234 driver set regiser addr: 12384 value: 11
+[160932.543361] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[160932.543369] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[160932.654249] AR0234 driver set regiser addr: 12306 value: 100
+[160932.654934] AR0234 driver set regiser addr: 12384 value: 11
+[161883.620597] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[161884.127251] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[161884.128331] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[161884.128349] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[161884.177442] enter mtk_idd1_spi1_release
+[161884.177504] enter mtk_idd1_do_release
+[161886.153040] enter mtk_idd1_do_open
+[161887.775783] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[161887.775858] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[161887.778909] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[161887.779518] AR0234 driver set regiser addr: 12384 value: 11
+[161887.779539] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[161887.779548] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[161887.891280] AR0234 driver set regiser addr: 12306 value: 100
+[161887.891963] AR0234 driver set regiser addr: 12384 value: 11
+[163607.101641] WatchDogThreade invoked oom-killer: gfp_mask=0x6200ca(GFP_HIGHUSER_MOVABLE), nodemask=(null), order=0, oom_score_adj=0
+[163607.101676] WatchDogThreade cpuset=/ mems_allowed=0
+[163607.101695] CPU: 3 PID: 24780 Comm: WatchDogThreade Not tainted 4.19.193 #293
+[163607.101701] Hardware name: Rockchip RK3566 EVB2 LP4X V10 Board (DT)
+[163607.101708] Call trace:
+[163607.101723]  dump_backtrace+0x0/0x188
+[163607.101743]  show_stack+0x24/0x30
+[163607.101762]  dump_stack+0x8c/0xb4
+[163607.101775]  dump_header.isra.5+0x70/0x224
+[163607.101791]  oom_kill_process+0xb8/0x3e4
+[163607.101804]  out_of_memory+0x338/0x370
+[163607.101816]  __alloc_pages_nodemask+0x938/0xa6c
+[163607.101829]  pagecache_get_page+0x1e0/0x298
+[163607.101842]  filemap_fault+0x1e8/0x4c0
+[163607.101856]  ext4_filemap_fault+0x38/0x54
+[163607.101871]  __do_fault+0xc8/0x15c
+[163607.101882]  __handle_mm_fault+0x48c/0x9a0
+[163607.101892]  handle_mm_fault+0x78/0x88
+[163607.101905]  do_page_fault+0x204/0x3e4
+[163607.101916]  do_translation_fault+0x50/0x88
+[163607.101928]  do_mem_abort+0x68/0xfc
+[163607.101935]  do_el0_ia_bp_hardening+0x9c/0xbc
+[163607.101942]  el0_ia+0x18/0x1c
+[163607.101948] Mem-Info:
+[163607.101961] active_anon:160376 inactive_anon:6328 isolated_anon:0
+[163607.101961]  active_file:442 inactive_file:483 isolated_file:0
+[163607.101961]  unevictable:0 dirty:7 writeback:0 unstable:0
+[163607.101961]  slab_reclaimable:5529 slab_unreclaimable:6164
+[163607.101961]  mapped:61367 shmem:6571 pagetables:773 bounce:0
+[163607.101961]  free:975 free_pcp:676 free_cma:0
+[163607.101982] Node 0 active_anon:641504kB inactive_anon:25312kB active_file:1768kB inactive_file:1932kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:245468kB dirty:28kB writeback:0kB shmem:26284kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+[163607.102000] DMA32 free:3900kB min:3976kB low:4968kB high:5960kB active_anon:641504kB inactive_anon:25312kB active_file:1976kB inactive_file:1660kB unevictable:0kB writepending:28kB present:1030144kB managed:989620kB mlocked:0kB kernel_stack:2784kB pagetables:3092kB bounce:0kB free_pcp:2704kB local_pcp:1304kB free_cma:0kB
+[163607.102010] lowmem_reserve[]: 0 0 0
+[163607.102022] DMA32: 243*4kB (UMH) 73*8kB (UMEH) 42*16kB (UMEH) 23*32kB (UMEH) 17*64kB (UEH) 1*128kB (H) 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 4180kB
+[163607.102051] 7536 total pagecache pages
+[163607.102061] 0 pages in swap cache
+[163607.102070] Swap cache stats: add 0, delete 0, find 0/0
+[163607.102078] Free swap  = 0kB
+[163607.102087] Total swap = 0kB
+[163607.102096] 257536 pages RAM
+[163607.102105] 0 pages HighMem/MovableOnly
+[163607.102114] 10131 pages reserved
+[163607.102123] 4096 pages cma reserved
+[163607.102132] Tasks state (memory values in pages):
+[163607.102141] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+[163607.102179] [    116]     0   116      630       21    32768        0             0 syslogd
+[163607.102189] [    119]     0   119      630       23    28672        0             0 klogd
+[163607.102199] [    134]     0   134      788      121    32768        0         -1000 udevd
+[163607.102213] [    498]  1000   498      732       49    32768        0             0 dbus-daemon
+[163607.102226] [    521]     0   521      615       27    32768        0             0 dropbear
+[163607.102238] [    524]     0   524    56748     8783   237568        0             0 weston
+[163607.102251] [    575]     0   575    16363     1534   135168        0             0 weston-keyboard
+[163607.102264] [    576]     0   576    18258     3472   151552        0             0 weston-desktop-
+[163607.102276] [    590]     0   590      708       42    32768        0             0 dnsmasq
+[163607.102289] [    597]     0   597      475       21    32768        0             0 input-event-dae
+[163607.102301] [    601]     0   601    21668      125    57344        0             0 WatchDog
+[163607.102314] [    602]     0   602    40266      147    65536        0             0 ARMBarcodeScann
+[163607.102327] [    603]     0   603      630       24    32768        0             0 exe
+[163607.102351] [    605]     0   605      630       15    32768        0             0 sh
+[163607.102380] [   8837]     0  8837    40266      146    73728        0             0 ARMBarcodeScann
+[163607.102400] [  24756]     0 24756   835079   205963  2220032        0             0 BarcodeScanner
+[163607.102414] [  32091]     0 32091      630       24    28672        0             0 exe
+[163607.102423] [  32092]     0 32092      727       50    32768        0             0 ps
+[163607.102432] [  32093]     0 32093      630       20    32768        0             0 grep
+[163607.102445] [  32094]     0 32094     1459       79    36864        0             0 wc
+[163607.102458] [  32099]     0 32099      630       22    28672        0             0 sh
+[163607.102470] [  32102]     0 32102     1493      111    40960        0             0 cp
+[163607.102481] Out of memory: Kill process 24756 (BarcodeScanner) score 834 or sacrifice child
+[163607.102674] Killed process 24756 (BarcodeScanner) total-vm:3340316kB, anon-rss:604184kB, file-rss:219452kB, shmem-rss:176kB
+[163607.240105] oom_reaper: reaped process 24756 (BarcodeScanner), now anon-rss:0kB, file-rss:233432kB, shmem-rss:0kB
+[163607.780249] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[163608.286885] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[163608.287962] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[163608.287978] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[163608.340392] enter mtk_idd1_spi1_release
+[163608.340455] enter mtk_idd1_do_release
+[163610.361635] enter mtk_idd1_do_open
+[163611.984482] rockchip-csi2-dphy0: dphy0, data_rate_mbps 900
+[163611.984555] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:1, dphy0
+[163611.987555] AR0234 driver RK set V4L2_CID_VBLANK =: 98
+[163611.988128] AR0234 driver set regiser addr: 12384 value: 11
+[163611.988153] ar0234 4-0018: ar0234_set_ctrl Unhandled id:0x980906, val:0x0
+[163611.988161] AR0234 driver RK set V4L2_CID_TEST_PATTERN =: 0
+[163612.099250] AR0234 driver set regiser addr: 12306 value: 100
+[163612.099869] AR0234 driver set regiser addr: 12384 value: 11
+[166420.179660] rkisp-vir0: rkisp_stream_stop id:4 timeout
+[166420.686313] rkisp-vir0: rkisp_stream_stop id:0 timeout
+[166420.687388] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream_stop stream stop, dphy0
+[166420.687404] rockchip-csi2-dphy csi2-dphy0: csi2_dphy_s_stream stream on:0, dphy0
+[166420.739828] enter mtk_idd1_spi1_release
+[166420.739886] enter mtk_idd1_do_release
+[root@RK356X:~]#
+
+*********************************************************
+*********************************************************Rockchip-isp1
+https://blog.csdn.net/neutionwei/article/details/111411069
+
+##########################################################################################
+##########################################################################################
+
 某平台pcie设备的(host)controller驱动框架及其phy驱动框架（一）
 https://blog.csdn.net/tpmamba/article/details/112488180
 
@@ -9,11 +219,61 @@ https://blog.csdn.net/kc58236582/article/details/84613254?spm=1001.2101.3001.665
 早期android-华为oem版本：
 https://github.com/frap129/angler/blob/1b149bba4d0a0475422acdeeec96a567f6b40ad7/drivers/thermal/msm_thermal.c
 
+全志摄像头驱动 主线DVP与MIPI-CSI2
+https://whycan.com/t_4284.html
+https://github.com/zhaohaiyi/sun6i-mipi-csi
+linux下通过V4L2驱动USB摄像头：
+
+如何在keil中STM32L496 跑simulator 不需要开发板跑RTTHREAD： 
+https://blog.csdn.net/lt6210925/article/details/124110601
+
+rkmedia 调试笔记：
+https://blog.csdn.net/Blazar/article/details/110006540
+
+Linux内核基础--事件通知链(notifier chain)
+https://blog.csdn.net/wh8_2011/article/details/50541212
+
+USB Virtual Host Controller Interface
+https://sourceforge.net/projects/usb-vhci/
+
+usb-skeleton应该算是最简单的一个USB驱动了，它提供了USB驱动必备的一些操作，供需要进行USB开发的人员参考。
+https://blog.csdn.net/Ivan804638781/article/details/109594601
+
+rockchip-连接多路mipi摄像头dts详细说明
+https://blog.csdn.net/qq_30111427/article/details/121518261
+
+Android（hal） LINUX摄像头驱动分析：
+https://blog.csdn.net/zljdfaljsfd/article/details/122955492
+
+7.camera驱动06-自己实现v4l2驱动-虚拟摄像头
+https://blog.csdn.net/u014056414/article/details/120608929
+##########################################################################################
+##########################################################################################
+catkin-tools安装
+https://blog.csdn.net/weixin_30608131/article/details/96421520
+
 laser-ccd-isp-mcu(点云格式数据）- ros(autoware):
 https://github.com/ros-perception/pointcloud_to_laserscan
+谷歌Ceres Solver：
+曲线拟合
+https://blog.csdn.net/QLeelq/article/details/112070796?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-112070796-blog-82906738.pc_relevant_multi_platform_whitelistv4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-112070796-blog-82906738.pc_relevant_multi_platform_whitelistv4&utm_relevant_index=2
+https://github.com/ceres-solver/ceres-solver
+https://ceres-solver.googlesource.com/ceres-solver/+/refs/heads/master/internal/ceres/eigensparse.cc
+Ceres Solver使用总结
+https://blog.csdn.net/MyArrow/article/details/82906738
 
+运动轨迹/运动规划：moveit
+ros moveit机械臂轨迹 三次插补
+https://www.jianshu.com/p/3455719991ee
+
+https://github.com/ros-planning/moveit
+ROS学习笔记（八）—— moveit！概述
+https://blog.csdn.net/zxxxiazai/article/details/108368231
+
+https://github.com/ros-planning/moveit_tutorials/tree/melodic-devel
 
 机器人：
 SLAM拾萃(1)：octomap 
 https://blog.csdn.net/weixin_30647065/article/details/98302173?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-98302173-blog-123487506.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-98302173-blog-123487506.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=2
 
+其他同图像识别、运动控制相关的信息：
