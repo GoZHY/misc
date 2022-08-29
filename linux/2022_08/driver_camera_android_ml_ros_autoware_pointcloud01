@@ -1,0 +1,14 @@
+ASAN原理-3
+https://blog.csdn.net/wmzjzwlzs/article/details/124546271
+https://blog.csdn.net/weixin_43708622/article/details/117966519
+https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer
+
+由软件bug引起的内存泄露(增长)火焰图
+https://zhuanlan.zhihu.com/p/463705766
+操作系统--brk()和mmap()详解
+https://blog.csdn.net/shuzishij/article/details/86574927
+smaps 使用&& 内存泄露
+http://t.zoukankan.com/codestack-p-14760741.html
+
+https://github.com/google/tcmalloc
+https://blog.csdn.net/mseaspring/article/details/106754972
