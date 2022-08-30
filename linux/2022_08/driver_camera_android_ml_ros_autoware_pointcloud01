@@ -12,3 +12,60 @@ http://t.zoukankan.com/codestack-p-14760741.html
 
 https://github.com/google/tcmalloc
 https://blog.csdn.net/mseaspring/article/details/106754972
+
+尺寸检测：
+https://www.keyence.com.cn/products/measure/micrometer/tm-x5000/index_pr.jsp?aw=gabaidukcmeals210220338&bd_vid=10405897695723344836
+激光测距：
+http://www.shsenky.com/index.php?c=category&id=6
+
+halcon：
+https://github.com/iluzhiyong/CameraMeasurement/tree/master/CameraMeasurement
+Halcon图像处理入门篇（一）
+https://blog.csdn.net/qq_36559788/article/details/120536793
+Halcon算子--图像、区域、轮廓、测量、拟合、垂足、夹角
+https://blog.csdn.net/weixin_51229250/article/details/118887542?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118887542-blog-101943231.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118887542-blog-101943231.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=1
+opencv机器学习线性回归_机器学习初级算法（二）——线性回归
+https://blog.csdn.net/weixin_39614704/article/details/112313574
+
+特征值和特征向量到底是个啥？能做什么用？
+https://zhuanlan.zhihu.com/p/410678449
+所谓的特征值和特征向量
+https://blog.csdn.net/woainishifu/article/details/76418176
+谈谈神经网络中的非线性激活函数——ReLu函数
+https://zhuanlan.zhihu.com/p/360980567
+基于 Haar 分类器与五官检验的人脸检测
+https://zhuanlan.zhihu.com/p/460233976
+凸优化笔记10：凸优化问题
+https://zhuanlan.zhihu.com/p/133458743
+#########################
+YOLO详解——目前讲的最好的一篇
+https://blog.csdn.net/Arthur_Holmes/article/details/102543052
+卷积层用来提取图像特征，全连接层用来预测图像位置和类别概率值。
+卷积层参数计算与设置
+https://blog.csdn.net/qq_42740834/article/details/123757816
+关于卷积神经网络CNN
+https://blog.csdn.net/m0_59310933/article/details/122981830?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-122981830-blog-103450255.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-122981830-blog-103450255.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=1
+MIT—线性代数笔记21 特征值和特征向量
+https://zhuanlan.zhihu.com/p/45912594
+傅里叶变换与卷积
+https://blog.csdn.net/gehulushang/article/details/102831400
+梯度下降法，牛顿法，高斯-牛顿迭代法，附代码实现
+https://blog.csdn.net/piaoxuezhong/article/details/60135153?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-60135153-blog-99035636.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-60135153-blog-99035636.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=9
+opencv-轮廓检测
+https://blog.csdn.net/weixin_48167570/article/details/122983044?spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-12-122983044-blog-100924975.pc_relevant_multi_platform_whitelistv4eslandingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-12-122983044-blog-100924975.pc_relevant_multi_platform_whitelistv4eslandingrelevant&utm_relevant_index=16
+使用OpenCV识别二维码
+https://blog.csdn.net/tugouxp/article/details/120248702
+基于opencv的人脸识别
+https://blog.csdn.net/qq_47541315/article/details/122440285
+基于Opencv的人脸识别
+https://blog.csdn.net/qq_42430908/article/details/115392060
+Datawhale -- opencv学习 -- Haar分类器（人脸检测）
+https://blog.csdn.net/hzy459176895/article/details/107073992
+使用Opencv的opencv_traincascade来训练属于自己的分类器，检测自己想检测的东西，666，从使用到放弃。
+https://blog.csdn.net/yangdashi888/article/details/80385041
+Haar 小波——原理
+https://zhuanlan.zhihu.com/p/386322623
+模式识别之样本数据归一化（Normalization）与标准化（Standardization）
+https://blog.csdn.net/u011650143/article/details/71515927
+OPENCV学习（二）图像增强
+https://blog.csdn.net/pingfanjiqiren/article/details/123915818
